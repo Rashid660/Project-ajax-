@@ -1,0 +1,4 @@
+
+function getDetails2() {
+    $('#first_name').val() == details2[Math.floor(Math.random() * details2.length)].firstName
+}

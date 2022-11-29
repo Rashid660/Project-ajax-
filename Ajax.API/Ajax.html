@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Ajax.css">
+    <title>Ajax 1</title>
+</head>
+<body>
+
+<div>
+<h1><b>Create Profile</b></h1>
+<label for="text">first name</label><br>
+<input type="text" id="first_name" class="firstName" placeholder="Enter Your First Name"><br><br>
+<label for="text">last name</label><br>
+<input type="text" id="last_name" class="lastName" placeholder="Enter Your Last Name"><br><br>
+
+<input type="text" id="over18" class="lastName" placeholder="Over 18 years old?">&nbsp;
+<input type="checkbox" id="age" name="over18" value="checking"><br><br>
+
+<label for="text">Adress</label><br>
+<input type="text" id="adress"  placeholder="Enter Your Adress"><br><br>
+
+<label for="text">Gender:</label>
+  <input type="radio" id="male" name="Gender" value="Male">
+  <label for="Male">Male</label>
+  <input type="radio" id="female" name="Gender" value="Female">
+  <label for="Female">Female</label><br>
+<hr>
+<button class="button-19" role="button" onclick="getDetails()">Send</button><br>
+<button class="button-19" role="button" onclick="getDetails2()">Random</button><br>
+<button class="button-19" role="button" onclick="loadXMLDoc()">XHR</button><br>
+<button class="button-19" role="button" onclick="clickAjax()">jQuery ajax</button><br>
+<button class="button-19" role="button" onclick="clickFetch()">fetch</button><br>
+
+
+</div>
+
+<script src="Ajax.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>
